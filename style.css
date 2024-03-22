@@ -1,0 +1,132 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(10, 7, 11);
+}
+
+.topbar{
+    background-color: black;
+    height: 3em;
+    display:flex;
+    justify-content: space-around;
+    border-bottom: 1px dotted white;
+}
+
+.tb_1 > li, .tb_2  > li , a:hover{
+    color: brown;
+    list-style: none;
+    display: inline;
+    margin-left:20px;
+}
+
+.link_color {
+    text-decoration: none;
+}
+
+.fa-brands{
+    color: azure;
+}
+
+.link_color{
+    color:azure;
+    
+}
+
+.main{
+    background-image: url("./images/kabaabjess-home-back.gif");
+    background-size: 100% auto; /* width and height, can be %, px or whatever. */
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tb_3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 0.85rem;
+}
+
+.tb_3 > li {
+    text-decoration: none;
+    list-style: none;
+    display:inline;
+    padding: 20px; 
+    border-bottom: 2px dotted white;
+    border-top: 2px dotted white;
+}
+
+.tb_3> li > a {
+    font-size: larger;
+}
+
+.kb_logo{
+    width: 200px;
+}
+.no_border{
+    border: none !important;
+}
+
+.heading1,.heading2 {
+    text-align: left;
+    margin-top: 90px;
+    font-size:3em;
+    color: azure;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.section2{
+    font-family:Arial, Helvetica, sans-serif ;
+    height: 90vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    margin-top: auto;
+}
+
+.tb_4{
+    background-color:black;
+    width: 45%;
+}
+
+p{
+    color: azure;
+    font-size: larger;
+}
+
+.img{
+    background-color: rgb(45,70,70);
+}
+
+.tb_5{
+    margin: auto;
+    height: 30%;
+    width: 30%;
+    border: 2px solid white;
+    border-radius: 30px;
+    border-width: 5px;
+}
+
+
+.bg_1{
+    background-image: url('./images/s9millatpic1.jpg');
+}
+
+.section3, tb6{
+    height: 40px;
+    text-align: center;
+}
+.heading3{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.heading4{
+    color: #e5c888;
+    font-size: 40px;
+}
